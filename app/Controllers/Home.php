@@ -8,5 +8,9 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+    public function index2()
+    {
+        return view('Punnya_gua_coba2');
+    }
 
 }
